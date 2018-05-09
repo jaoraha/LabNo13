@@ -13,6 +13,7 @@ public String toString() {
       case ROCK: return "Rock";
       case PAPER: return "Paper";
       case SCISSORS: return "Scissors";
-      default: throw new IllegalArgumentException();
+      default: 
+    	  return null;
     }
 }}
